@@ -69,32 +69,32 @@ static void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuI
       switch (cell_index->row) {
         case 0:
           // This is a basic menu item with a title
-          menu_cell_basic_draw(ctx, cell_layer, "Bigger Rockets", "75000", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "Viral Cat Videos", "75000", NULL);
           break;
 
         case 1:
           // This is a basic menu item with a title
-          menu_cell_basic_draw(ctx, cell_layer, "Hire Rocket Scientist", "100", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "New Cat Toys", "100", NULL);
           break;
 
         case 2:
           // This is a basic menu item with a title
-          menu_cell_basic_draw(ctx, cell_layer, "Buy New Facility", "500", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "High End Beds", "500", NULL);
           break;
         
         case 3:
           // This is a basic menu item with a title
-          menu_cell_basic_draw(ctx, cell_layer, "Moon Mission", "5000", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "Trip To The Pet Store", "5000", NULL);
           break;
         
         case 4:
           // This is a basic menu item with a title
-          menu_cell_basic_draw(ctx, cell_layer, "Asteroid Mission", "20000", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "Catnip Vending Machines", "20000", NULL);
           break;
 
         case 5:
           // This is a basic menu item with a title
-          menu_cell_basic_draw(ctx, cell_layer, "Mars Mission", "40000", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "Cat Parade", "40000", NULL);
           break;
 	  }
   }
